@@ -1,3 +1,4 @@
+// Linear Search
 
 function linearSearch(arr, num) {
     let ans = -1;
