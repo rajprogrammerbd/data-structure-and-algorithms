@@ -1,0 +1,22 @@
+{
+  "name": "data-structure-and-algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "binarySearch.js",
+  "scripts": {
+    "start": "nodemon coding_problems/reverseString/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajprogrammerbd/data-structure-and-algorithms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajprogrammerbd/data-structure-and-algorithms/issues"
+  },
+  "homepage": "https://github.com/rajprogrammerbd/data-structure-and-algorithms#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
