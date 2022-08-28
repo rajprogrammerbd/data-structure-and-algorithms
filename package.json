@@ -4,7 +4,7 @@
   "description": "",
   "main": "binarySearch.js",
   "scripts": {
-    "start": "nodemon coding_problems/reverseString/index.js"
+    "start": "nodemon coding_problems/max_chars/index.js"
   },
   "repository": {
     "type": "git",
