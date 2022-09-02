@@ -4,7 +4,7 @@
   "description": "",
   "main": "binarySearch.js",
   "scripts": {
-    "start": "nodemon coding_problems/capitalize/index.js"
+    "start": "nodemon coding_problems/steps/index.js"
   },
   "repository": {
     "type": "git",
