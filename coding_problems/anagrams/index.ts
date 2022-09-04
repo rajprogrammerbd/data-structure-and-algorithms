@@ -2,12 +2,14 @@
 // 'rail safety' -> 'fairy tales'
 // RAIL! -> 'fairy tales'
 // Hi there -> Bye there
-
-function anagram(str1, str2) {
-    const arrStr1 = str1.toLowerCase().split('');
-    const arrStr2 = str2.toLowerCase().split('');
-    const obj1 = {};
-    const obj2 = {};
+interface IProp {
+    [key: string]: any;
+}
+function anagram(str1: string, str2: string) {
+    const arrStr1: string[] = str1.toLowerCase().split('');
+    const arrStr2: string[] = str2.toLowerCase().split('');
+    const obj1 = {} as IProp;
+    const obj2 = {} as IProp;
     let ans = true;
     // How to remove space and special charecters from a string, here is a regex
     // /[^\w]/g

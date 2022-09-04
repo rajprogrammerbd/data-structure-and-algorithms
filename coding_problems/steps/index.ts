@@ -1,4 +1,4 @@
-function steps(n) {
+function steps(n: number) {
     let count = 1;
     let line = '';
 

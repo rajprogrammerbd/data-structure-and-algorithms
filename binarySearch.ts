@@ -1,6 +1,6 @@
 // Binary Search
 
-function binarySearch(arr, num) {
+function binarySearches(arr: any[], num: number) {
     let start = 0;
     let end = arr.length - 1;
     let middle = Math.floor((start + end) / 2);
@@ -18,8 +18,8 @@ function binarySearch(arr, num) {
     return arr[middle] === num ? middle : -1;
 }
 
-const array = [0, 4, 6, 8, 11, 13, 14, 16, 20, 21, 22, 25, 26, 30, 35, 38];
+const arrays = [0, 4, 6, 8, 11, 13, 14, 16, 20, 21, 22, 25, 26, 30, 35, 38];
 
-const result = binarySearch(array, 38);
+const results = binarySearches(array, 38);
 
 console.log('Binary Search ', result);

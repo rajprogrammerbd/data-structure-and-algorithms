@@ -1,6 +1,6 @@
 // Linear Search
 
-function linearSearch(arr, num) {
+function linearSearch(arr: any[], num: any) {
     let ans = -1;
 
     for ( let i = 0; i < arr.length; i++ ) {

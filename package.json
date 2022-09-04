@@ -4,7 +4,7 @@
   "description": "",
   "main": "binarySearch.js",
   "scripts": {
-    "start": "nodemon coding_problems/vowels/index.js"
+    "start": "nodemon coding_problems/vowels/index.ts"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/rajprogrammerbd/data-structure-and-algorithms#readme",
   "devDependencies": {
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.19",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
   }
 }

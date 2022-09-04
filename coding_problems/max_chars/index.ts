@@ -1,6 +1,9 @@
+interface IProps {
+    [key: string]: number;
+}
 
-function maxChar(str) {
-    const obj = {};
+function maxChar(str: string) {
+    const obj = {} as IProps;
     let max;
 
     for (let i = 0; i < str.split('').length; i++) {
@@ -20,5 +23,5 @@ function maxChar(str) {
     return max;
 }
 
-const value = maxChar('abcaaaac');
-console.log('value ', value);
+const values = maxChar('abcaaaac');
+console.log('value ', values);

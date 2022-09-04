@@ -1,5 +1,5 @@
 
-function reverseString(str) {
+function reverseString(str: string) {
     const splited = str.split('');
     let ans = '';
 
@@ -9,11 +9,11 @@ function reverseString(str) {
     return ans;
 }
 
-const value = reverseString('hello world!');
+const val = reverseString('hello world!');
 
-console.log(value);
+console.log(val);
 
-function reverseInt(num) { // O(n)
+function reverseInt(num: number) { // O(n)
     const isPositive = num > 0 ? true : false;
     let str;
     

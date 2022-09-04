@@ -27,7 +27,7 @@ const val = binarySearchRecursive(arr, 15);
 console.log('value ', val, arr[val]);
 */
 
-function binarySearch(arr, x, low = 0, high = arr.length - 1) {
+function binarySearch(arr: any[], x: any, low = 0, high = arr.length - 1): any {
     const mid = Math.floor((low + high) / 2);
 
     if (high >= low) {

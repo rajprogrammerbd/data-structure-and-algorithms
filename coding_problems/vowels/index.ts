@@ -1,5 +1,5 @@
 
-function Vowels(str) {
+function Vowels(str: string) {
     const res =  str.split('').reduce((num, str) => {
         const txt = str.toLowerCase();
         if (txt === 'a' || txt === 'e' || txt === 'i' || txt === 'o' || txt === 'u') {
