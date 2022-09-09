@@ -87,3 +87,29 @@ function binarySearch(arr: number[], search: any): number {
 let arr = [1, 3, 5, 7, 8, 9, 10, 12, 17, 20, 32];
 
 const foundNum = binarySearch(arr, 10);
+
+function bubbleSort(arr: any[]): any[] {
+    let i = 0;
+    let temp = 0;
+    while (i < arr.length) {
+        temp = 0;
+
+        while (temp < arr.length) {
+            if ( arr[temp + 1] !== undefined ) {
+                if ( arr[temp] > arr[temp + 1] ) {
+                    [arr[temp], arr[temp + 1]] = [arr[temp + 1], arr[temp]];
+                }
+            }
+            temp++;
+        }
+        i++;
+    }
+    
+    return arr;
+}
+
+// const arr2 = [10,25,8,3,5,2,6,9, 25];
+const arr2 = ['z', 'u', 'i', 'j', 'k', 'l', 'm', 'd', 'c', 'b', 'a'];
+const val1 = bubbleSort(arr2);
+
+console.log('val1', val1);
