@@ -58,4 +58,32 @@ class Student extends Common {
 }
 
 const student = new Student('Raj', 'Dutta');
-console.log(student);
+// console.log(student);
+
+
+function binarySearch(arr: number[], search: any): number {
+    let start = 1;
+    let end = arr.length - 1;
+    let middle = Math.floor((end + start) / 2);
+
+    while (start < middle) {
+        if (arr[middle] === search) {
+            return middle;
+        }
+
+        if ( arr[middle] > search ) {
+            end = middle - 1;
+        }
+
+        if (arr[middle] < search) {
+            start = middle + 1;
+        }
+        middle = Math.floor((end + start) / 2);
+    }
+
+    return arr[middle] === search ? middle : -1;
+}
+
+let arr = [1, 3, 5, 7, 8, 9, 10, 12, 17, 20, 32];
+
+const foundNum = binarySearch(arr, 10);
