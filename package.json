@@ -4,7 +4,7 @@
   "description": "",
   "main": "binarySearch.js",
   "scripts": {
-    "start": "nodemon coding_problems/dublyLinkedList/index.ts"
+    "start": "nodemon coding_problems/selectionSort/index.ts"
   },
   "repository": {
     "type": "git",
