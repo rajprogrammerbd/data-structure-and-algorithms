@@ -1,5 +1,5 @@
 
-class Account {
+export class Account {
     constructor (public readonly id: number, public owner: string, private balence: number) {
         this.id = id;
         this.owner = owner;
@@ -22,7 +22,7 @@ class Account {
 // const account = new Account(1, 'Raj Dutta', 10);
 // console.log(account.getBalence);
 
-class Count {
+export class Count {
     private static count: number = 0;
 
     static increase() {
@@ -37,7 +37,7 @@ class Count {
 Count.increase();
 Count.increase();
 
-class Common {
+export class Common {
     constructor (protected readonly firstName: string, protected readonly lastName: string) {
 
     }
@@ -47,7 +47,7 @@ class Common {
     }
 }
 
-class Student extends Common {
+export class Student extends Common {
     constructor (firstNames: string, lastNames: string) {
         super(firstNames, lastNames);
     }
@@ -61,7 +61,7 @@ const student = new Student('Raj', 'Dutta');
 // console.log(student);
 
 
-function binarySearch(arr: number[], search: any): number {
+export function binarySearch(arr: number[], search: any): number {
     let start = 1;
     let end = arr.length - 1;
     let middle = Math.floor((end + start) / 2);
@@ -88,7 +88,7 @@ let arr = [1, 3, 5, 7, 8, 9, 10, 12, 17, 20, 32];
 
 const foundNum = binarySearch(arr, 10);
 
-function bubbleSort(arr: any[]): any[] {
+export function bubbleSort(arr: any[]): any[] {
     let i = 0;
     let temp = 0;
     while (i < arr.length) {

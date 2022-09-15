@@ -1,4 +1,4 @@
-function arrayChunk(array: any[], size: number) {
+export function arrayChunk(array: any[], size: number) {
     const main = [];
     const loopCount = Math.ceil(array.length / size);
 

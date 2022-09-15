@@ -1,4 +1,4 @@
-class Nodes {
+export class Nodes {
     public val: any;
     public next: any;
 
@@ -170,3 +170,5 @@ list.insert(3, 'v');
 // console.log('list', list);
 
 console.log(list);
+
+export default SinglyLinkedList;

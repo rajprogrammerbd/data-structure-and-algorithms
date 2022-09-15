@@ -42,3 +42,5 @@ function binarySearch(arr: any[], x: any, low = 0, high = arr.length - 1): any {
         return -1;
     }
 }
+
+export default binarySearch;

@@ -1,5 +1,5 @@
 
-function reverseString(str: string) {
+export function reverseString(str: string) {
     const splited = str.split('');
     let ans = '';
 
@@ -41,3 +41,5 @@ function reverseInt(num: number) { // O(n)
 
 const s = reverseInt(256);
 console.log(s);
+
+export default reverseInt;

@@ -13,3 +13,5 @@ function Vowels(str: string) {
 
 const t = Vowels('Hi There!');
 console.log('t', t);
+
+export default Vowels;

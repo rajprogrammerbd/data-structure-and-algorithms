@@ -20,6 +20,8 @@ function binarySearches(arr: any[], num: number) {
 
 const arrays = [0, 4, 6, 8, 11, 13, 14, 16, 20, 21, 22, 25, 26, 30, 35, 38];
 
-const results = binarySearches(array, 38);
+const results = binarySearches(arrays, 38);
 
-console.log('Binary Search ', result);
+console.log('Binary Search ', results);
+
+export default binarySearches;

@@ -19,3 +19,5 @@ function steps(n: number) {
 }
 
 steps(10);
+
+export default steps;

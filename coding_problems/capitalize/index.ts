@@ -1,5 +1,5 @@
 
-function capitatize(str: string) {
+export function capitatize(str: string) {
     return str.split(' ').map((word) => {
         const start = word[0].toUpperCase();
         const rest = word.slice(1).toLowerCase();

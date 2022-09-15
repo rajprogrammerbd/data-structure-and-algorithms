@@ -4,7 +4,7 @@
   "description": "",
   "main": "binarySearch.js",
   "scripts": {
-    "start": "nodemon coding_problems/SinglyLinkedList/index.ts"
+    "start": "nodemon coding_problems/dublyLinkedList/index.ts"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/rajprogrammerbd/data-structure-and-algorithms#readme",
   "devDependencies": {
+    "@types/node": "^18.7.18",
     "nodemon": "^2.0.19",
     "typescript": "^4.8.2"
   },

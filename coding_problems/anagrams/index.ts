@@ -5,7 +5,7 @@
 interface IProp {
     [key: string]: any;
 }
-function anagram(str1: string, str2: string) {
+export function anagram(str1: string, str2: string) {
     const arrStr1: string[] = str1.toLowerCase().split('');
     const arrStr2: string[] = str2.toLowerCase().split('');
     const obj1 = {} as IProp;

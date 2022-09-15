@@ -2,7 +2,7 @@ interface IProps {
     [key: string]: number;
 }
 
-function maxChar(str: string) {
+export function maxChar(str: string) {
     const obj = {} as IProps;
     let max;
 
