@@ -1,5 +1,5 @@
 
-class MyNode {
+export class MyNode {
     public next: any;
 
     constructor(public val: number) {
@@ -8,7 +8,7 @@ class MyNode {
     }
 }
 
-class Stack {
+export class Stack {
     public first: any;
     public last: any;
     public length: number;
