@@ -4,7 +4,7 @@
   "description": "",
   "main": "binarySearch.js",
   "scripts": {
-    "start": "nodemon coding_problems/queue/index.ts"
+    "start": "nodemon coding_problems/binarySearchTree/index.ts"
   },
   "repository": {
     "type": "git",
