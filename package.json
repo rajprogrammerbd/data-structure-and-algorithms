@@ -4,7 +4,7 @@
   "description": "",
   "main": "binarySearch.js",
   "scripts": {
-    "start": "nodemon coding_problems/bubbleSort/index.ts"
+    "start": "nodemon coding_problems/selectSort/index.ts"
   },
   "repository": {
     "type": "git",
