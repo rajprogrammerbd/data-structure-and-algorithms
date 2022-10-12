@@ -4,7 +4,7 @@
   "description": "",
   "main": "binarySearch.js",
   "scripts": {
-    "start": "nodemon coding_problems/binarySearchTree/index.ts"
+    "start": "nodemon coding_problems/mergeSort/index.ts"
   },
   "repository": {
     "type": "git",
