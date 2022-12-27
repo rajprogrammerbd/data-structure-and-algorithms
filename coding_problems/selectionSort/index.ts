@@ -32,4 +32,5 @@ function selectionSort(arr: number[]): number[] {
 const arr = [20, 30, 4, 5, 1, 8, 7, 2, 3, 5, 20, 50, 29, 30, 27, 25, 45, 38,31,36,32, 35];
 // const arr = [1,2,3,4,5,6,7,8,9];
 const res: number[] = selectionSort(arr);
+console.clear();
 console.log(res);
